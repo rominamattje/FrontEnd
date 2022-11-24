@@ -2,3 +2,9 @@ row{
     background-color: aliceblue;
     padding: 20px;
 }
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
