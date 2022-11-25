@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.rnm.Interface;
+package com.portfolio.rnm.Security.Controller;
 
 /**
  *
  * @author Alan
  */
-class persona {
+public class Mensaje {
     
 }
