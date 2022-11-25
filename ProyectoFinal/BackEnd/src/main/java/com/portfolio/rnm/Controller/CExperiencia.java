@@ -5,10 +5,10 @@
  */
 package com.portfolio.rnm.Controller;
 
-import com.portfolio.mgb.Dto.dtoExperiencia;
-import com.portfolio.mgb.Entity.Experiencia;
-import com.portfolio.mgb.Security.Controller.Mensaje;
-import com.portfolio.mgb.Service.SExperiencia;
+import com.portfolio.rnm.Dto.dtoExperiencia;
+import com.portfolio.rnm.Entity.Experiencia;
+import com.portfolio.rnm.Security.Controller.Mensaje;
+import com.portfolio.rnm.Service.SExperiencia;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

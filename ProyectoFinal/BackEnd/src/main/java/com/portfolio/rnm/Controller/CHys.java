@@ -5,10 +5,10 @@
  */
 package com.portfolio.rnm.Controller;
 
-import com.portfolio.mgb.Dto.dtoHys;
-import com.portfolio.mgb.Entity.hys;
-import com.portfolio.mgb.Security.Controller.Mensaje;
-import com.portfolio.mgb.Service.Shys;
+import com.portfolio.rnm.Dto.dtoHys;
+import com.portfolio.rnm.Entity.hys;
+import com.portfolio.rnm.Security.Controller.Mensaje;
+import com.portfolio.rnm.Service.Shys;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,7 +74,7 @@ public class CHys {
 
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoHys dtohys) {
-        //Validamos si existe el ID
+        //Validar si existe el ID
         if (!shys.existsById(id)) {
             return new ResponseEntity(new Mensaje("El ID no existe"), HttpStatus.BAD_REQUEST);
         }

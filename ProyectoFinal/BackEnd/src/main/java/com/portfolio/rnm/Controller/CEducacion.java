@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 package com.portfolio.rnm.Controller;
-import com.portfolio.mgb.Dto.dtoEducacion;
-import com.portfolio.mgb.Entity.Educacion;
-import com.portfolio.mgb.Security.Controller.Mensaje;
-import com.portfolio.mgb.Service.Seducacion;
+import com.portfolio.rnm.Dto.dtoEducacion;
+import com.portfolio.rnm.Entity.Educacion;
+import com.portfolio.rnm.Security.Controller.Mensaje;
+import com.portfolio.rnm.Service.Seducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
