@@ -5,10 +5,24 @@
  */
 package com.portfolio.rnm.Security.Controller;
 
-/**
- *
- * @author Alan
- */
 public class Mensaje {
+    private String mensaje;
     
+    //CONSTRUCTORES
+
+    public Mensaje() {
+    }
+
+    public Mensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+    //GETTERS AND SETTERS
+
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
 }
