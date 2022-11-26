@@ -8,11 +8,10 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-<<<<<<< HEAD
-  URL = 'https://backend.rnm.herokuapp.com/educacion/';
-=======
+
+  edURL = 'https://backend.rnm.herokuapp.com/educacion/';
+
   URL = environment.URL + 'educacion/';
->>>>>>> 
 
   constructor(private httpClient : HttpClient) { }
 

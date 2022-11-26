@@ -10,11 +10,10 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-<<<<<<< HEAD
-  authURL = 'https://backend-rnm.herokuapp.com/auth/';
-=======
+
+  authURL = 'https://backendrnm.herokuapp.com/auth/';
+
   URL = environment.URL + 'auth/';
->>>>>>> bd8ixbu7tbfdt88wycnx
 
   constructor(private httpClient: HttpClient) { }
 

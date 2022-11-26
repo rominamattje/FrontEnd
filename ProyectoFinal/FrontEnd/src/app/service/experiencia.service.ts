@@ -8,11 +8,10 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-<<<<<<< HEAD
-  expURL = 'https://backend-rnm.herokuapp.com/explab/';
-=======
+
+  expURL = 'https://backendrnm.herokuapp.com/explab/';
+
   URL = environment.URL + 'explab/';
->>>>>>> bd8ixbu7tbfdt88wycnx
 
   constructor(private httpClient: HttpClient) { }
 
