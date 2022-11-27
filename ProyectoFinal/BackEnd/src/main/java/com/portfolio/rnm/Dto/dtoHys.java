@@ -36,7 +36,5 @@ public class dtoHys {
 
     public void setPorcentaje(int porcentaje) {
         this.porcentaje = porcentaje;
-    }
-    
-    
+    }  
 }
