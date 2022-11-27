@@ -9,8 +9,8 @@ import { EducacionService } from 'src/app/service/educacion.service';
   styleUrls: ['./neweducacion.component.css']
 })
 export class NeweducacionComponent implements OnInit {
-  nombreE: string;
-  descripcionE: string;
+  nombreE!: string;
+  descripcionE!: string;
 
   constructor(private educacionS: EducacionService, private router: Router) { }
 
@@ -29,5 +29,4 @@ export class NeweducacionComponent implements OnInit {
       }
     )
   }
-
 }
