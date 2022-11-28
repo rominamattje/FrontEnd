@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'ProyectoFinal';
 
   ngOnInit() {
-    this.http.get('localhost:8080').
+    this.http.get('localhost:4200').
       subscribe((data) => {
         console.log(data);
       });
